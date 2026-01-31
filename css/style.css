@@ -6,3 +6,20 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  filter: invert(1);
+}
+
+@media (width >= 768px) {
+  .img-carousel{
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+@media (width >= 992px) {
+  .img-carousel{
+    height: 500px;
+  }
+}
